@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Skillbox_github/Homework 19.5/Skillbox_homework_19.5/Exercise 1/cmake-build-debug",
-		"source" : "C:/Skillbox_github/Homework 19.5/Skillbox_homework_19.5/Exercise 1"
+		"build" : "C:/Skillbox_repositories/Skillbox_homework_19.5/Exercise 1/cmake-build-debug",
+		"source" : "C:/Skillbox_repositories/Skillbox_homework_19.5/Exercise 1"
 	},
 	"version" : 
 	{
