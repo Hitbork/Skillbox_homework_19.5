@@ -20,7 +20,7 @@ int main() {
     }
 
     // Opening file
-    std::ifstream words("C:\\Skillbox_repositories\\Skillbox_homework_19.5\\Exercise 1\\words.txt");
+    std::ifstream words("C:\\Skillbox_github\\Homework 19.5\\Skillbox_homework_19.5\\Exercise 1\\words.txt");
 
     if (!words.is_open()) {
         std::cout << "error\n";
