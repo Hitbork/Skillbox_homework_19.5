@@ -16,6 +16,7 @@ int main() {
     // Check if flow could be opened
     if (!file.is_open()) {
         std::cout << "There is an error in opening the file!";
+        return 1;
     } else {
         // Reading the flow
         while (!file.eof()) {
