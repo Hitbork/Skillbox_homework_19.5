@@ -1,18 +1,15 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <stdio.h>
+#include <string.h>
 
 
 // Function to check if file is png
 bool checkForPng (char buffer[4]) {
-    // Checking for not bytes
-    if (buffer[0] != -119) return false;
-    if (buffer[1] != 'P') return false;
-    if (buffer[2] != 'N') return false;
-    if (buffer[3] != 'G') return false;
+    char png[4] = {-119, 'P', 'N', 'G'};
 
-    // Returning true if bytes are same
-    return true;
+    return memcmp(buffer, png, 4) == 0;
 }
 
 
