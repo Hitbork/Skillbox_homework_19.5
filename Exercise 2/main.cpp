@@ -20,13 +20,15 @@ int main() {
     // Check if file could be opened
     if (!file.is_open()) {
         std::cout << "There is an error to open " << path << " path. Please, try again";
+        return 1;
     } else {
         // Reading text from the file
         while (std::getline(file, temp)) {
             std::cout << temp << std::endl;
         }
     }
-
+    std::cout << std::endl;
+    file.seekg(0);
     file.close();
     return 0;
 }
